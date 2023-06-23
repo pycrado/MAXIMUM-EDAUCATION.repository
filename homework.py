@@ -1,8 +1,4 @@
-def polindrom():
- s = input()
- if s == s[::1]:
-     print(True)
- else:
-     print(False)
-
-polindrom()
+def is_palindrom(s):
+   return s == s[::-1]
+str = 'lOL'
+zau = is_palindrom(str)
